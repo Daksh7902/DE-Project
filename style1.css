@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+nav{
+    height: 20vh;
+    width: 100%;
+    padding-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+#logo h3{
+    font-size: 1.4vw;
+    padding: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo h3:hover{
+    color: rgb(203, 23, 47);
+    font-size: larger;
+    border: 1px antiquewhite;
+    border-radius: 50%;
+}
+
+#main{
+    height: 100% - 20vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.main-threats {
+  background: #fff;
+  color: #333;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-threats h2 {
+  text-align: center;
+  color: #0077cc;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main-threats h3 {
+  font-size: 1.5rem;
+  color: #454444;
+  margin: 30px 0 15px;
+}
+
+.threat-item {
+  background: #f2eeee;
+  border-left: 5px solid #00aaff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+
+.threat-item h4 {
+  color: #00aaff;
+  margin-bottom: 8px;
+}
+
+.threat-item a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.threat-item a:hover {
+  text-decoration: underline;
+}
